@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" type='text/css' media='screen' href="./styles/global.css">
+    <link rel="stylesheet" type='text/css' media='screen' href="./styles/style.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <section class="card profile">
+                <div id="profile-pic" class="photo"></div>
+                <div class="namertags">
+                    <h1 id="username">Klayverson Freitas</h1>
+                    <h3>Front-End Dev</h3>
+                </div>
+
+                <label  class="switch">
+                    <input type="checkbox" checked>
+                    <span id="change-color" class="slider round"></span>
+                  </label>
+            </section>
+
+            <section class="card links">
+                <div class="link">
+                    <img src="./styles/imagens/map-pin.svg" alt="Localização">
+                    <p>São Paulo, Brasil</p>
+                </div>
+                <div class="link">
+                    <img src="./styles/imagens/github.svg" alt="Github">
+                    <a href="https://github.com/Klayversonsousa">Github</a>
+                </div>
+                <div class="link">
+                    <img src="./styles/imagens/linkedin.svg" alt="LinkedIn">
+                    <a href="https://www.linkedin.com/in/klayverson-sousa-3bb507229/">Linkedin</a>
+                </div>
+
+                <div class="link">
+                    <img src="./styles/imagens/mail.svg" alt="Email">
+                    <a>Klayversonsousa@gmail.com</a>
+                </div>
+            </section>
+            <section class="card">
+                <div class="title">
+                    <h1>Tecnologias</h1>
+                </div>
+                <div class="iconstechs">
+                    <div class="tool">
+                        <p>HTML</p>
+                    </div>
+                    <div class="tool">
+                        <p>CSS</p>
+                    </div>
+                    <div class="tool">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="tool">
+                        <p>Github</p>
+                    </div>
+                    <div class="tool">
+                        <p>SQL</p>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <div class="card experiences">
+                <div class="title">
+                    <h1>Experiências</h1>
+                </div>
+                <div class="experiences-content">
+                    <ul>
+                        <li>
+                            <h4>Sercom</h2>
+                                <p>jan 2022 - fev 2023</p>
+                                <p>Analista de Relacionamento</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card education">
+                <div class="title">
+                    <h1>Educação</h1>
+                </div>
+                <div class="education-content">
+                    <ul>
+                        <li>
+                            <h4>Fecaf</h2>
+                                <p>2022 - 2024</p>
+                                <p>Análise e Desenvolvimento de Sistemas</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="card my-projects">
+                <div class="title">
+                    <h1>Meus projetos</h1>
+                </div>
+                <h2>Veja todos</h2>
+            </div>
+
+            <!-- Listar repos -->
+            <div id="projetos"></div>
+        </div>
+
+        <script src="./js/main.js"></script>
+</body>
+
+</html>
